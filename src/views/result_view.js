@@ -10,7 +10,6 @@ class ResultView {
 
   displayResult(answer) {
     const resultElement = document.querySelector('#result');
-    console.log(answer);
     if (answer === true) {
       resultElement.textContent = 'This is a Prime Number';
     } else {
